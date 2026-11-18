@@ -2,7 +2,7 @@
 ## Install Charts from the Repository
 
 ```bash
-helm repo add matilda https://matildacloud.github.io/helm-charts/
+helm repo add matilda https://matildacloud-platform.github.io/helm-charts/
 helm repo update
 helm search repo matilda
 ```

@@ -65,7 +65,7 @@ Before running `helm install`, verify:
 
 1. **Add the Matilda Cloud Helm repository:**
 ```bash
-helm repo add matilda https://matildacloud.github.io/helm-charts/
+helm repo add matilda https://matildacloud-platform.github.io/helm-charts/
 helm repo update
 ```
 

@@ -4,7 +4,7 @@ This Helm chart creates a Kubernetes service account with read-only permissions 
 
 ## Repository
 
-This chart is part of the [Matilda Cloud Helm Charts](https://github.com/matildacloud/helm-charts) repository.
+This chart is part of the [Matilda Cloud Helm Charts](https://github.com/matildacloud-platform/helm-charts) repository.
 
 ## Features
 
@@ -25,7 +25,7 @@ This chart is part of the [Matilda Cloud Helm Charts](https://github.com/matilda
 
 ```bash
 # Add the Matilda Cloud Helm repository
-helm repo add matilda https://matildacloud.github.io/helm-charts/
+helm repo add matilda https://matildacloud-platform.github.io/helm-charts/
 helm repo update
 
 # Install the chart
@@ -220,7 +220,7 @@ kubectl delete clusterrolebinding matilda-readonly-binding
 
 ## Contributing
 
-1. Fork the [Matilda Cloud Helm Charts](https://github.com/matildacloud/helm-charts) repository
+1. Fork the [Matilda Cloud Helm Charts](https://github.com/matildacloud-platform/helm-charts) repository
 2. Create a feature branch
 3. Make your changes
 4. Test the chart
@@ -232,6 +232,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Related Charts
 
-- [matilda-k8s-agent](https://github.com/matildacloud/helm-charts/tree/main/matilda-k8s-agent) - Kubernetes agent for Matilda Cloud
-- [matilda-prometheus](https://github.com/matildacloud/helm-charts/tree/main/matilda-prometheus) - Prometheus monitoring stack
-- [matilda-thanos](https://github.com/matildacloud/helm-charts/tree/main/matilda-thanos) - Thanos monitoring solution 
+- [matilda-k8s-agent](https://github.com/matildacloud-platform/helm-charts/tree/main/matilda-k8s-agent) - Kubernetes agent for Matilda Cloud
+- [matilda-prometheus](https://github.com/matildacloud-platform/helm-charts/tree/main/matilda-prometheus) - Prometheus monitoring stack
+- [matilda-thanos](https://github.com/matildacloud-platform/helm-charts/tree/main/matilda-thanos) - Thanos monitoring solution 

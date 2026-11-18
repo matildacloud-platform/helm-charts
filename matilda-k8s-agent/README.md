@@ -30,7 +30,7 @@ A Helm chart for deploying the Matilda Kubernetes Agent with secure configuratio
 
 ```bash
 # Add the Matilda Cloud Helm repository
-helm repo add matilda https://matildacloud.github.io/helm-charts/
+helm repo add matilda https://matildacloud-platform.github.io/helm-charts/
 helm repo update
 
 # Install with required parameters (namespace will be created automatically)
@@ -395,7 +395,7 @@ kubectl delete namespace matilda-k8s-agent
 
 ## Contributing
 
-1. Fork the [Matilda Cloud Helm Charts](https://github.com/matildacloud/helm-charts) repository
+1. Fork the [Matilda Cloud Helm Charts](https://github.com/matildacloud-platform/helm-charts) repository
 2. Create a feature branch
 3. Make your changes
 4. Test the chart

@@ -11,9 +11,9 @@ keywords:
   - monitoring
   - network
   - daemonset
-home: https://github.com/matildacloud/helm-charts
+home: https://github.com/matildacloud-platform/helm-charts
 sources:
-  - https://github.com/matildacloud/helm-charts
+  - https://github.com/matildacloud-platform/helm-charts
 maintainers:
   - name: Matilda Cloud Team
     email: support@matildacloud.com
